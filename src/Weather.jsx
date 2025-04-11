@@ -38,6 +38,7 @@ function Weather() {
                 setCity(selected);
                 if(selected && selected[0]) {
                 setSelectedCity(selected[0].split('-')[0]);
+                setImageVisible(true);
                 }
               }}
               options={cities}
