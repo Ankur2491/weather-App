@@ -31,7 +31,7 @@ function Weather() {
             <Typeahead
               placeholder='enter a city here'
               onInputChange={(text) => {
-                setSearchString(text);
+                setSearchString(text.toLowerCase());
               }}
               onChange={async (selected) => {
                 setCity(selected);
