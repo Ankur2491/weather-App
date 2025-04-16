@@ -47,7 +47,8 @@ const translationMap = {
     "patchy light snow with thunder": "thunderstorms_snow",
     "moderate or heavy snow with thunder": "thunderstorms_snow",
     "patchy rain nearby": "rain",
-    "haze": "haze"
+    "haze": "haze",
+    "rain with thunderstorm": "rain"
 }
 
 const dualValues = ['clear','partly_cloudy','overcast','thunderstorms','fog']
